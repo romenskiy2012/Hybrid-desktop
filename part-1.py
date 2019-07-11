@@ -54,7 +54,7 @@ def Wallpaper():
 #//////////////////////////////////////////////////////////////////////////////
 
 Cycle01 = 0
-while Cycle01 != 0:
+while Cycle01 != 1:
     Time = (strftime("%H", localtime()))#Сколько часов ?
     #print(Time)
     Time_int = int(Time)
