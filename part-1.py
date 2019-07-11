@@ -15,16 +15,16 @@ e4 = 0
 def Wallpaper():
     SPI_SETDESKWALLPAPER = 20
     if r == (1):
-        WALLPAPER_PATH = SCRIPT_DIRECTORY + '\\Время\\HoraZero.png'
+        WALLPAPER_PATH = SCRIPT_DIRECTORY + '\\Время\\Morning.png'
 
     if r == (2):
-        WALLPAPER_PATH = SCRIPT_DIRECTORY + '\\Время\\Miami.jpg'
+        WALLPAPER_PATH = SCRIPT_DIRECTORY + '\\Время\\Day.jpg'
 
     if r == (3):
-        WALLPAPER_PATH = SCRIPT_DIRECTORY + '\\Время\\vice.png'
+        WALLPAPER_PATH = SCRIPT_DIRECTORY + '\\Время\\Evening.png'
 
     if r == (4):
-        WALLPAPER_PATH = SCRIPT_DIRECTORY + '\\Время\\riptide.png'
+        WALLPAPER_PATH = SCRIPT_DIRECTORY + '\\Время\\Night.png'
 
 
     def is_64_windows():
